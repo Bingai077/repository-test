@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zahuopu_service_goods" />
+        <module name="aliyunossDemo" />
+        <module name="zahuopu_common_web" />
+        <module name="zahuopu_pojo" />
+        <module name="zuhuopu_service_goods" />
+        <module name="zahuopu_interface" />
+        <module name="zahuopu_common_service" />
+        <module name="zahuopu_web_manager" />
+        <module name="zahuopu_common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zahuopu_service_goods" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document对象</title>
+
+
+</head>
+<body>
+
+
+<div id="div1">div1</div>
+<div id="div2">div2</div>
+<div id="div3">div3</div>
+
+<div class="cls1" >div4</div>
+<div class="cls1" >div5</div>
+
+<input type="text" name="username">
+
+
+
+
+
+<script>
+    /*
+        DOM：
+        * 概念： Document Object Model 文档对象模型
+        * 将标记语言文档的各个组成部分，封装为对象。可以使用这些对象，对标记语言文档进行CRUD的动态操作
+        * W3C DOM 标准被分为 3 个不同的部分：
+        * 核心 DOM - 针对任何结构化文档的标准模型
+                * Document：文档对象
+                * Element：元素对象
+                * Attribute：属性对象
+                * Text：文本对象
+                * Node：节点对象，其他5个的父对象
+        * XML DOM - 针对 XML 文档的标准模型
+        * HTML DOM - 针对 HTML 文档的标准模型
+
+     */
+    /*
+        * 核心DOM模型：
+
+            * Document：文档对象
+                1. 创建(获取)：在html dom模型中可以使用window对象来获取
+                    1. window.document
+                    2. document
+                2. 方法：
+                    1. 获取Element对象：
+                        1. getElementById() ： 根据id属性值获取元素对象。id属性值一般唯一
+                        2. getElementsByTagName()：根据元素名称获取元素对象们。返回值是一个数组
+                        3. getElementsByClassName():根据Class属性值获取元素对象们。返回值是一个数组
+                        4. getElementsByName(): 根据name属性值获取元素对象们。返回值是一个数组
+                    2. 创建其他DOM对象：
+                        createAttribute(name)
+                        createComment()
+                        createElement()
+                        createTextNode()
+                3. 属性
+     */
+
+    var divs = document.getElementsByTagName("div");
+    //alert(divs.length);
+    var div_cls = document.getElementsByClassName("cls1");
+    // alert(div_cls.length);
+    var ele_username = document.getElementsByName("username");
+    //alert(ele_username.length);
+
+    var table = document.createElement("table");
+    alert(table);
+
+</script>
+
+
+
+</body>
+</html>

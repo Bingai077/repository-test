@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="mchange-commons-java-0.2.12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/mchange-commons-java-0.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/druid-1.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/spring-beans-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/mysql-connector-java-5.1.37-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/spring-core-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/spring-jdbc-5.0.0.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/day14_test/lib/spring-tx-5.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

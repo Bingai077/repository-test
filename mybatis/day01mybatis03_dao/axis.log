@@ -1,0 +1,11 @@
+2019-12-17 23:27:50,418 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-12-17 23:27:50,497 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-17 23:27:50,497 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-17 23:27:50,497 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-17 23:27:50,497 79     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-12-17 23:27:50,557 139    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-12-17 23:27:50,754 336    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 194707680.
+2019-12-17 23:27:50,754 336    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@b9b00e0]
+2019-12-17 23:27:50,756 338    [           main] DEBUG om.bingai.dao.IUserDao.findAll  - ==>  Preparing: SELECT * FROM user 
+2019-12-17 23:27:50,779 361    [           main] DEBUG om.bingai.dao.IUserDao.findAll  - ==> Parameters: 
+2019-12-17 23:27:50,800 382    [           main] DEBUG om.bingai.dao.IUserDao.findAll  - <==      Total: 6

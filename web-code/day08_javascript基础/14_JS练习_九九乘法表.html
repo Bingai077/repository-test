@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九九乘法表</title>
+
+    <!--利用css设置td的边框-->
+    <style>
+        td{
+            border: 1px solid;
+        }
+    </style>
+
+    <script>
+
+        document.write("<table align='center'>");
+
+        //1.基本九九乘法表
+        for(var i = 1; i <= 9;i++){
+            document.write("<tr>");
+            for(var j = 1; j <= i;j++){
+                //输出
+                document.write("<td>");
+                document.write("&nbsp" + j + "&nbsp*&nbsp" + i + "&nbsp=&nbsp" + j * i + "&nbsp&nbsp");
+                document.write("</td>");
+            }
+            //输出换行
+            // document.write("<br>")
+            document.write("</tr>");
+
+
+        }
+        document.write("</table>");
+
+        //2.完成表格的嵌套
+
+
+
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

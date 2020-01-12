@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [08/Dec/2019:21:29:36 +0800] "GET /maven_web/MyServlet HTTP/1.1" 200 98 http-bio-9999-exec-1 305
+0:0:0:0:0:0:0:1 - - [08/Dec/2019:21:29:36 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9999-exec-3 0

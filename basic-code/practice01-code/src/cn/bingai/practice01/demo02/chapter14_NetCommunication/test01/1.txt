@@ -1,0 +1,55 @@
+
+package com.file;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class FileTest {
+
+	public static void main(String []args){
+		File file = new File("f:/file.txt");
+		String s = "这是刚开始的文本";
+		FileWriter fileWriter = null;
+		PrintWriter printWriter = null;
+		try {
+			 fileWriter = new FileWriter(file);
+			 fileWriter.write(s);
+			 fileWriter.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}finally{
+			if(fileWriter!=null){
+				try {
+					fileWriter.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+
+		try{
+			String str = "\r\n这是追加的文本";
+			fileWriter = new FileWriter(file,true);
+			printWriter = new PrintWriter(fileWriter);
+			printWriter.println(str);
+			printWriter.close();
+			fileWriter.close();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			if(printWriter!=null){
+				printWriter.close();
+			}
+			if(fileWriter!=null){
+				try {
+					fileWriter.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+}
+

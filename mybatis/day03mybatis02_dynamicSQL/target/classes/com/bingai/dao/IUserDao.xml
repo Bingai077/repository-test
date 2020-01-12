@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bingai.dao.IUserDao">
+
+    <!--抽取重复的sql语句-->
+    <sql id="defaultUser">
+        SELECT * FROM USER
+    </sql>
+
+    <!--查询所有-->
+    <select id="findAll" resultType="user">
+        <include refid="defaultUser"></include>
+    </select>
+
+    <!--根据id查询用户-->
+    <select id="findById" parameterType="Integer" resultType="user">
+        SELECT *  FROM user where id = #{uid};
+    </select>
+
+    <!--根据名称模糊查询用户信息-->
+    <select id="findByName" parameterType="String" resultType="user">
+        SELECT * FROM user where username LIKE #{name};
+    </select>
+
+    <!--根据queryVo中的条件查询用户-->
+    <select id="findUserByVo" parameterType="com.bingai.domain.QueryVo" resultType="user">
+        SELECT * FROM user where username LIKE #{user.username};
+    </select>
+
+    <!--根据传入的参数条件查询-->
+    <!--<select id="findUserByCondition" resultType="user">-->
+    <!--select * from user where 1=1-->
+    <!--<if test="username != null">-->
+    <!--AND username = #{username}-->
+    <!--</if>-->
+    <!--<if test="sex != null">-->
+    <!--AND sex = #{sex}-->
+    <!--</if>-->
+    <!--</select>-->
+    <select id="findUserByCondition" resultType="user">
+        <include refid="defaultUser"></include>
+        <where>
+            <if test="username != null">
+                AND username = #{username}
+            </if>
+            <if test="sex != null">
+                AND sex = #{sex}
+            </if>
+        </where>
+    </select>
+
+
+    <!--根据queryvo中提供的id集合，查询用户信息-->
+    <select id="findUserInIds" resultType="user" parameterType="QueryVo">
+        <include refid="defaultUser"></include>
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where> 
+    </select>
+
+
+</mapper>
+
+

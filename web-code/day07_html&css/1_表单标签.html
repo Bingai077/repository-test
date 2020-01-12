@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+    <!--
+    form： 用于定义表单。可以定义一个范围，范围代表采集用户数据的范围
+     属性
+        action:指定提交数据的URL
+        method：指定提交方式
+            分类：一共七种，2种比较常用
+                get：
+                    1.请求参数会在地址栏中显示，会封装到请求行中
+                    2.请求参数的长度有限制
+                    3.get请求不太安全
+                post：
+                    1.请求参数不会在地址栏中显示，会封装在请求体中（HTTP协议后讲解）
+                    2.请求参数的大小有限制
+                    3.post较为安全
+     表单项中的数据要想被提交，必须指定其name属性
+
+
+     表单项标签：
+        input：可以通过type属性值，改变元素展示的样式
+            type属性：
+                text：文本输入框，默认
+                    placeholder：指定输入框的提示信息，当输入框的内容发生变化，会自动清空提示信息
+                password：密码输入框
+                radio：单选框
+                    注意：1.要想让多个单选框实现单选的效果，则多个单选框的name属性值必须一样
+                         2.一般会给每一个单选框提供value属性，指定其被选中后提交的值。
+                         3.checked属性，可以指定默认值
+                checkbox：复选框
+                    注意：
+                         1.一般会给每一个复选框提供value属性，指定其被选中后提交的值。
+                         2.checked属性，可以指定默认值
+
+                file:文件选择框
+                hidden:隐藏域，用于提交一些信息
+
+                按钮：
+                    submit：提交按钮，用于提交表单
+                    button:普通按钮
+                    image：图片提交按钮
+                        src属性指定图片的路径
+
+
+
+
+
+                label:指定输入项的文字描述信息
+                    注意：
+                        label的for属性一般会和input的id属性值对应。如果对应了，则点击label区域，会让input输入框获取焦点。
+
+
+        select：下拉列表
+            子元素：option，指定列表项
+
+        textarea:文本域
+            cols:指定列数，每一行有多少个字符
+            rows：默认多少行
+    -->
+<form action="#" method="post">
+    用户名：<input type="text" name="username"><br>
+    密码：<input name="password"><br>
+    <input type="submit" value="登录">
+    
+</form>
+
+</body>
+</html>
