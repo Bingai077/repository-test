@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62a5f244-3970-440d-9948-0c2b0d67ca70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/BCrypt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/src/main/java/org/mindrot/jbcrypt/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/src/main/java/org/mindrot/jbcrypt/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/src/main/java/org/mindrot/jbcrypt/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/target/classes/org/mindrot/jbcrypt/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BCryptDemo/target/classes/org/mindrot/jbcrypt/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/BCrypt/org/mindrot/jbcrypt/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/BCrypt/org/mindrot/jbcrypt/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/BCrypt/org/mindrot/jbcrypt/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/snowflakeDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/src/main/java/com/bingai/demo/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/src/main/java/com/bingai/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/target/classes/com/bingai/demo/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../snowflake/snowflakeDemo/target/classes/com/bingai/demo/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/java/com/bingai/demo/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/src/main/webapp/login_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/classes/com/bingai/demo/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springSecurity/springsecurityDemo/target/tomcat/logs/access_log.2020-01-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common/zahuopu_common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_service/src/main/java/com/zahuopu/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_service/zahuopu_common_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_web/src/main/java/com/zahuopu/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_web/src/main/resources/applicationContext-task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_web/target/classes/com/zahuopu/util/WebUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_common_web/zahuopu_common_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_interface/src/main/java/com/zahuopu/service/order/CategoryReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_interface/zahuopu_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/goods/CategoryBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/goods/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/order/CategoryReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_pojo/zahuopu_pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_business/zahuopu_service_business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_config/zahuopu_service_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/CategoryBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/SpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/TemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_goods/zahuopu_service_goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_order/src/main/java/com/zahuopu/dao/CategoryReportMappper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_order/src/main/java/com/zahuopu/service/impl/CategoryReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_order/zahuopu_service_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/logs/access_log.2020-01-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_system/zahuopu_service_system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_service_user/zahuopu_service_user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/order/CategoryReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/order/OrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/resources/applicationContext_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/element-ui-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/elementui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/login_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/theme-chalk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/aaa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/para.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/pref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/sku.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/spec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/spu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/imagesBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/imagesBg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/loginbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/logingBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/minilogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/stepN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/elementui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/report/categoryReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/business/ActivityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/business/AdController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/config/FreightTemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/file/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/ParaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/PrefController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SpuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/TemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/CategoryReportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/PreferentialController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnCauseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnOrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/LoginLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/AreasController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/CitiesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/ProvincesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/zahuopu_web_manager-1.0-SNAPSHOT/WEB-INF/classes/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/zahuopu_web_manager-1.0-SNAPSHOT/WEB-INF/classes/com/zahuopu/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopu/zahuopu_parent/zahuopu_web_manager/zahuopu_web_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/13.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/softwareInstall/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\softwareInstall\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectId" id="1WSYMTJ1RQ13F5yg8FaCaC3dFqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2487709" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mindrot.jbcrypt.Test1" />
+      <module name="BCrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mindrot.jbcrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62a5f244-3970-440d-9948-0c2b0d67ca70" name="Default Changelist" comment="" />
+      <created>1579144414450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579144414450</updated>
+      <workItem from="1579144415637" duration="214000" />
+      <workItem from="1579144673828" duration="1364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1030" y="182" key="#Project_Structure" timestamp="1579144612609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1030" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579144612609" />
+    <state x="1289" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579144488624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1289" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579144488624" />
+    <state x="1079" y="236" key="FileChooserDialogImpl" timestamp="1579144810456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1079" y="236" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579144810456" />
+    <state width="914" height="271" key="GridCell.Tab.0.bottom" timestamp="1579188663858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579188663858" />
+    <state width="914" height="271" key="GridCell.Tab.0.center" timestamp="1579188663857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579188663857" />
+    <state width="914" height="271" key="GridCell.Tab.0.left" timestamp="1579188663857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579188663857" />
+    <state width="914" height="271" key="GridCell.Tab.0.right" timestamp="1579188663858">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579188663858" />
+    <state x="880" y="98" key="SettingsEditor" timestamp="1579144813613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579144813613" />
+  </component>
+</project>

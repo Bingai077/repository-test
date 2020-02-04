@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5eabe388-8c7b-43b3-8f00-bc5582f98dc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elasticsearchDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/DemoBaocun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/JdbcConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bingai/Test9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/BCrypt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/src/main/java/org/mindrot/jbcrypt/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/src/main/java/org/mindrot/jbcrypt/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/src/main/java/org/mindrot/jbcrypt/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/target/classes/org/mindrot/jbcrypt/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/BCrypt/BCryptDemo/target/classes/org/mindrot/jbcrypt/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/Echarts/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/out/production/BCrypt/org/mindrot/jbcrypt/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/out/production/BCrypt/org/mindrot/jbcrypt/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/out/production/BCrypt/org/mindrot/jbcrypt/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/snowflakeDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/src/main/java/com/bingai/demo/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/src/main/java/com/bingai/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/target/classes/com/bingai/demo/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/snowflake/snowflakeDemo/target/classes/com/bingai/demo/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/src/main/java/com/bingai/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/src/main/resources/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/target/classes/com/bingai/demo/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/target/classes/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project_others/thymeleaf/thymeleaf_demo/thymeleaf_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/SpringDataRedisDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/main/resources/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/test/java/com/bingai/demo/TestHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/test/java/com/bingai/demo/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/test/java/com/bingai/demo/TestSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/test/java/com/bingai/demo/TestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/src/test/java/com/bingai/demo/TestZset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/target/classes/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/target/classes/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springDataRedis/SpringDataRedisDemo/target/test-classes/com/bingai/demo/TestValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/java/com/bingai/demo/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/src/main/webapp/login_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/classes/com/bingai/demo/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../springSecurity/springsecurityDemo/target/tomcat/logs/access_log.2020-01-16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/artifacts/zahuopu_web_portal_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/artifacts/zahuopu_web_portal_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common/zahuopu_common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_service/src/main/java/com/zahuopu/util/CacheKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_service/src/main/java/com/zahuopu/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_service/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_service/src/main/resources/redis-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_service/zahuopu_common_service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_web/src/main/java/com/zahuopu/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_web/src/main/resources/applicationContext-task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_web/target/classes/com/zahuopu/util/WebUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_common_web/zahuopu_common_web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_interface/src/main/java/com/zahuopu/service/goods/SkuSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_interface/src/main/java/com/zahuopu/service/order/CategoryReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_interface/zahuopu_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/goods/CategoryBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/goods/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_pojo/src/main/java/com/zahuopu/pojo/order/CategoryReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_pojo/zahuopu_pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_business/src/main/java/com/zahuopu/service/impl/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_business/zahuopu_service_business.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_config/zahuopu_service_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/CategoryBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/SpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/dao/TemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/service/impl/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/service/impl/RestClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/src/main/java/com/zahuopu/service/impl/SkuSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/CategoryBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/ParaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/PrefMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/SpecMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/dao/TemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/Init.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/ParaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/PrefServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/RestClientFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/SkuSearchServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/SkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/SpecServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/SpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/classes/com/zahuopu/service/impl/TemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/tomcat/logs/access_log.2020-01-20" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/target/tomcat/logs/access_log.2020-01-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_goods/zahuopu_service_goods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_order/src/main/java/com/zahuopu/dao/CategoryReportMappper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_order/src/main/java/com/zahuopu/service/impl/CategoryReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_order/zahuopu_service_order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_system/target/tomcat/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_system/zahuopu_service_system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_service_user/zahuopu_service_user.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/order/CategoryReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/java/com/zahuopu/controller/order/OrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/resources/applicationContext_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/element-ui-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/elementui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/login_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.bubble.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/css/theme-chalk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/aaa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/album.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/para.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/pref.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/sku.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/spec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/spu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/goods/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/brand8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/imagesBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/imagesBg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/loginbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/logingBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/loginlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/minilogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/step.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/stepN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/base.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/elementui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/src/main/webapp/report/categoryReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/business/ActivityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/business/AdController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/config/FreightTemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/file/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/ParaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/PrefController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/SpuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/goods/TemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/CategoryReportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/OrderTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/PreferentialController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnCauseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnOrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/order/ReturnOrderItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/LoginLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/system/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/AddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/AreasController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/CitiesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/ProvincesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/classes/com/zahuopu/controller/user/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/tomcat/logs/access_log.2020-01-19" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/zahuopu_web_manager-1.0-SNAPSHOT/WEB-INF/classes/com/zahuopu/controller/AuthenticationSuccessHandlerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/target/zahuopu_web_manager-1.0-SNAPSHOT/WEB-INF/classes/com/zahuopu/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_manager/zahuopu_web_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/java/com/zahuopu/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/java/com/zahuopu/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/java/com/zahuopu/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/java/com/zahuopu/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/resources/applicationContext-thymeleaf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/WEB-INF/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/WEB-INF/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-JD-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-addressList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-cooperation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-getOrderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-myOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-mycomment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-payconfirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-payfail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-paysuccess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-sampling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-seckill-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-seckill-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-seckillOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-shoplogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-success-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/pages-zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/widget-cartPanelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/autocomplete.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/catalogSearch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/list-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/nav-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/orders.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productAlso.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productChoiceness.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productGuess.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/productRelationship.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/shoplist-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/shoplist.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/data/success.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-moon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-moon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-moon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-pc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-pc.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-pc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-tb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-tb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-tb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-tb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-touch.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-touch.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/fonts/icon-touch.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/bg-who1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/cooperation_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/down-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/empty_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/goods1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/manage-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/photo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/sampling_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/seckillbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/shi_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/shop-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/shop-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/shop-part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/_/y24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/ali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/barrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/choosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/goods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/linker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/mod-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/paylogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/model/cartModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/addressList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/login-manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/person-collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/person-footmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/seckill-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/shoplogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/pages/sm-city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/src/main/webapp/js/widget/cartPanelView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/target/tomcat/logs/access_log.2020-01-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopu/zahuopu_parent/zahuopu_web_portal/zahuopu_web_portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../zahuopuCode/zahuopu_parent/zahuopu_web_manager/src/main/webapp/img/13.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaProjects\java_other\es\elasticsearchDemo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/softwareInstall/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\softwareInstall\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+  </component>
+  <component name="ProjectId" id="1WbcZwAywT68NTOhPuzM6Rt21uO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/bingai" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bingai" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\java_other\es\elasticsearchDemo\src\main\java\com\bingai" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test10">
+    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bingai.Test10" />
+      <module name="elasticsearchDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bingai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bingai.Test6" />
+      <module name="elasticsearchDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bingai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bingai.Test7" />
+      <module name="elasticsearchDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bingai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bingai.Test8" />
+      <module name="elasticsearchDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bingai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bingai.Test9" />
+      <module name="elasticsearchDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bingai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test10" />
+        <item itemvalue="Application.Test9" />
+        <item itemvalue="Application.Test8" />
+        <item itemvalue="Application.Test7" />
+        <item itemvalue="Application.Test6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eabe388-8c7b-43b3-8f00-bc5582f98dc0" name="Default Changelist" comment="" />
+      <created>1579421793701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579421793701</updated>
+      <workItem from="1579421796397" duration="709000" />
+      <workItem from="1579422532537" duration="6009000" />
+      <workItem from="1579433063532" duration="31000" />
+      <workItem from="1579433279775" duration="1803000" />
+      <workItem from="1579480832494" duration="1381000" />
+      <workItem from="1579492432170" duration="16699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="914" height="209" key="GridCell.Tab.0.bottom" timestamp="1579668214276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="209" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579668214276" />
+    <state width="914" height="209" key="GridCell.Tab.0.center" timestamp="1579668214276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="209" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579668214276" />
+    <state width="914" height="209" key="GridCell.Tab.0.left" timestamp="1579668214276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="209" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579668214276" />
+    <state width="914" height="209" key="GridCell.Tab.0.right" timestamp="1579668214276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="209" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579668214276" />
+    <state x="1232" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579515722717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1232" y="442" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579515722717" />
+    <state x="1101" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1579515832549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1101" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579515832549" />
+  </component>
+</project>

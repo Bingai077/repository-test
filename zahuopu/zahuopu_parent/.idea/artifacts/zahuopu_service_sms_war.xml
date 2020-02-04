@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zahuopu_service_sms:war">
+    <output-path>$PROJECT_DIR$/zahuopu_service_sms/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zahuopu_service_sms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zahuopu_service_sms-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zahuopu_service_sms:war exploded" />
+    </root>
+  </artifact>
+</component>

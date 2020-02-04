@@ -1,0 +1,15 @@
+server_addr: "easy.echosite.cn:4443"
+
+# 示例 server_addr: "cross.echosite.cn:4443"
+
+trust_host_root_certs: false
+
+echosite_id: 15058493221
+
+echosite_token: $2y$10$AsrXupC5x6r1EOcCL5NncezkCnMPngJzGSNU5LhqcLWcH7dQumcDy
+
+tunnels:
+  name1:
+    subdomain: bingai
+    proto:
+    http: 127.0.0.1:9102
