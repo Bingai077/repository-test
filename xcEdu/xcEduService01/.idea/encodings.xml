@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/test-freemarker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-freemarker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-rabbitmq-comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-rabbitmq-comsumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-rabbitmq-comsumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-rabbitmq-producter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test-rabbitmq-producter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-framework-utils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manage-cms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manage-cms-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

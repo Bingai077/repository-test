@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue.js常用指令的测试</title>
+
+</head>
+<body>
+<!--实现在body区域显示一个斌改-->
+
+<div id="app">
+    <!--相当于MVVM的view视图-->
+    <ul>
+        <li v-for="(item,index) in list" :key="index" v-if="index % 2 == 0">{{index}}==={{item}}</li>
+        <li v-for="(value,key) in user">{{key}}=={{value}}</li>
+        <li v-for="(item,index) in userList" :key="item.user.uname">
+            <div v-if="item.user.uname=='Coco'" style="background: red">
+                {{index}}={{item.user.uname}}=={{item.user.age}}
+            </div>
+            <div v-else="">
+                {{index}}={{item.user.uname}}=={{item.user.age}}
+            </div>
+        </li>
+    </ul>
+
+
+</div>
+
+
+</body>
+<script src="vue.min.js"></script>
+<script>
+    //相当于MVVM中的mode部分以及VM(ViewModel)部分
+    var VM = new Vue({
+        el: '#app', //VM接管app区域的管理
+        data: {  //model
+            list:[1,2,3,4,5],
+            user:{uname:'bingai',age:10},
+            userList:[
+                {user:{uname:'Coco',age:8}},
+                {user:{uname:'kobe',age:12}}
+            ]
+        },
+
+    });
+
+</script>
+
+</html>
